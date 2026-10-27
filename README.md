@@ -1,39 +1,54 @@
-| Domaine | Plugin / Outil | Commande / Déclencheur | Action / Effet |
-| :--- | :--- | :--- | :--- |
-| **Navigation** | `zoxide` | `z <nom_dossier>` | Saute vers le répertoire le plus pertinent correspondant au nom. |
-| **Navigation** | `zoxide` | `zi` | Ouvre une interface interactive (fzf) pour choisir le dossier cible. |
-| **Navigation** | `dirhistory` | `Alt` + `←` / `→` | Recule ou avance dans l'historique des dossiers visités. |
-| **Navigation** | `dirhistory` | `Alt` + `↑` | Remonte d'un niveau (équivalent à `cd ..`). |
-| **Navigation** | `fzf` | `Ctrl` + `T` | Recherche un fichier en temps réel dans l'arborescence courante. |
-| **Fichiers** | `extract` | `extract <fichier>` | Décompresse automatiquement n'importe quelle archive (`.tar.gz`, `.zip`, etc.). |
-| **Fichiers** | `copypath` | `copypath` | Copie le chemin absolu du dossier courant dans le presse-papiers. |
-| **Fichiers** | `copyfile` | `copyfile <fichier>` | Copie l'intégralité du contenu texte du fichier dans le presse-papiers. |
-| **Système** | `sudo` | `Échap` puis `Échap` | Préfixe la ligne de commande actuelle avec `sudo`. |
-| **Système** | `archlinux` | `pacupg` | Lance une mise à jour globale (`sudo pacman -Syu`). |
-| **Système** | `archlinux` | `pacrmorphan` | Supprime les dépendances système inutilisées. |
-| **Système** | `systemd` | `sc-start <service>` | Démarre un service (`sudo systemctl start`). |
-| **Système** | `systemd` | `sc-status <service>` | Affiche l'état d'un service (`systemctl status`). |
-| **Réseau** | `ssh` | `ssh <serveur>` + `Tab` | Auto-complète les noms d'hôtes configurés dans `~/.ssh/config`. |
-| **Réseau** | `tailscale` | `tailscale` + `Tab` | Auto-complétion des nœuds et arguments du réseau maillé. |
-| **Git** | `git` | `gst` | Affiche le statut du dépôt (`git status`). |
-| **Git** | `git` | `gcam "<message>"` | Ajoute tous les fichiers et commit en une seule commande (`git commit -am`). |
-| **Git** | `git` | `glol` | Affiche l'historique des commits sous forme de graphe coloré. |
-| **Git** | `github` | `repo` | Ouvre le dépôt local actuel directement dans le navigateur web. |
-| **Git** | `gitignore` | `gi <lang>` | Génère les règles d'exclusion (ex: `gi python,rust > .gitignore`). |
-| **Dev** | `python` | `py` | Exécute `python3`. |
-| **Dev** | `python` | `mkenv` | Crée un environnement virtuel Python (`venv`) dans le dossier courant. |
-| **Audit** | `fzf` | `Ctrl` + `R` | Recherche floue et interactive dans l'historique global des commandes. |
-| **Audit** | `history` | `h` | Affiche l'historique complet. |
-| **Audit** | `history` | `hsi <terme>` | Cherche un terme précis dans l'historique (`history | grep <terme>`). |
-| **Audit** | `thefuck` | `fuck` | Corrige et ré-exécute instantanément la dernière commande tapée avec une erreur. |
-| **Web** | `web-search` | `google <requête>` | Cherche sur Google via le navigateur par défaut. |
-| **Web** | `web-search` | `ddg <requête>` | Cherche sur DuckDuckGo via le navigateur par défaut. |
-| **Web** | *Custom* | `anime <nom>` | Cherche la série sur Anilist via le navigateur. |
-| **Web** | *Custom* | `archwiki <terme>` | Lance une recherche directe sur le wiki d'Arch Linux. |
-| **Web** | *Custom* | `cachywiki` | Ouvre la page d'accueil de la documentation CachyOS. |
-| **Passif** | `command-not-found`| *Automatique (Erreur)* | Intercepte les commandes inexistantes et suggère le paquet `pacman` à installer. |
-| **Passif** | `dotenv` | *Automatique (Dossier)* | Charge en mémoire les variables d'un `.env` à l'entrée dans un dossier. |
-| **Passif** | `colored-man-pages`| *Automatique (Man)* | Applique une coloration syntaxique lors de la lecture d'un manuel (`man`). |
-| **Passif** | `timer` | *Automatique (Fin)* | Affiche le temps d'exécution exact au-dessus du prompt à la fin du processus. |
-| **Passif** | `bgnotify` | *Automatique (Fond)* | Déclenche une notification système (OS) à la fin d'une tâche longue. |
-| **Passif** | `rust` / `gh` | `Tab` | Injection silencieuse de l'auto-complétion experte (`cargo`, `gh pr`, etc.). |
+# 💫 About Me:
+i'm currently learning **kotlin** with a ton of project related to **anime** and **manga**,<br>
+i'm self hoster everythings in my **raspberry pi**<br>
+fanboy of **linux** for years i'm using **nixos**<br>
+big fan of **kotlin**<br>
+expert in **scraping** of highly protected website
+
+
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/@Bluecat-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Bx2PhgndEC)
+[![Steam](https://img.shields.io/badge/Steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamdb.info/calculator/76561199492050998/?cc=eu&all_games#games)
+[![AniList](https://img.shields.io/badge/AniList-02A9FF?style=for-the-badge&logo=anilist&logoColor=fff)]([#](https://anilist.co/user/BlueCxt/))
+
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Nix](https://img.shields.io/badge/NIX-5277C3.svg?style=for-the-badge&logo=NixOS&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Bitwarden](https://img.shields.io/badge/bitwarden-%23175DDC.svg?style=for-the-badge&logo=bitwarden&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+![Zed](https://img.shields.io/badge/zed-%23000000.svg?style=for-the-badge&logo=zedindustries&logoColor=white)
+![Bruno](https://img.shields.io/badge/Bruno-F4AA41?style=for-the-badge&logo=Bruno&logoColor=black)
+![Deepseek](https://img.shields.io/badge/Deepseek-4D6BFF?style=for-the-badge&logo=deepseek&logoColor=fff)
+![DeepSeek Badge](https://img.shields.io/badge/DeepSeek%20harness-5786FE?logo=deepseek&logoColor=fff&style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-886FBF?style=for-the-badge&logo=googlegemini&logoColor=fff)
+![Linear](https://img.shields.io/badge/Linear-5E6AD2?style=for-the-badge&logo=linear&logoColor=fff)
+![KDE Plasma](https://img.shields.io/badge/KDE%20Plasma-1D99F3?style=for-the-badge&logo=kdeplasma&logoColor=fff)
+![Floorp Badge](https://img.shields.io/badge/Floorp-5309E8?logo=floorp&logoColor=fff&style=for-the-badge)
+![n8n Badge](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=fff&style=for-the-badge)
+![Ktor Badge](https://img.shields.io/badge/Ktor-087CFA?logo=ktor&logoColor=fff&style=for-the-badge)
+![Android Badge](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=fff&style=for-the-badge)
+![Proxmox Badge](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=fff&style=for-the-badge)
+![NextDNS Badge](https://img.shields.io/badge/NextDNS-007BFF?logo=nextdns&logoColor=fff&style=for-the-badge)
+![Gradle Badge](https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=fff&style=for-the-badge)
+![Zsh Badge](https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff&style=for-the-badge)
+
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=bluecxt&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=bluecxt&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=bluecxt&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+<!-- created with GPRM https://gprm.itsvg.in and https://badges.pages.dev/ -->
