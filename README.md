@@ -1,9 +1,8 @@
 # 💫 About Me:
-i'm currently learning **kotlin** with a ton of project related to **anime** and **manga**,<br>
-i'm self hoster everythings in my **raspberry pi**<br>
-fanboy of **linux** for years i'm using **nixos**<br>
-big fan of **kotlin**<br>
-expert in **scraping** of highly protected website
+- I'm a big fan of **Kotlin**, currently building a ton of **anime** and **manga** related projects.
+- I self-host everything on my **Raspberry Pi**.<br>
+- A **Linux** enthusiast for years, currently daily-driving **NixOS**.<br>
+-  Specialized in **scraping** highly protected websites.
 
 
 ## 🌐 Socials:
